@@ -14,7 +14,7 @@
                 <img src="{{asset('imagini/logo.png')}}" alt="logo">
             </a>
             <nav class="links">
-                <a href="#">Despre</a>
+                <a href="#" class="active">Despre</a>
                 <a href="#">Produse Metodice</a>
                 <a href="#">Exemple de lucrari</a>
             </nav>
@@ -28,9 +28,10 @@
             </div>
         </div>
     </header>
-
+        @yield('content')
     <footer>
-
+        Velicu Liviu AAW1942
     </footer>
+    @stack('scripts')
 </body>
 </html>
