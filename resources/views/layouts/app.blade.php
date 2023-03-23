@@ -28,7 +28,9 @@
             </div>
         </div>
     </header>
+    
         @yield('content')
+
     <footer>
         Velicu Liviu AAW1942
     </footer>
